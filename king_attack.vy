@@ -23,6 +23,7 @@ def __default__():
     """
     @dev 
         To solve the challenge we'll just revert at the send eth payable part 
-        to trigger the Reentrancy issue since the code does not follow CEI 
+        to trigger a DoS since the code does not follow CEI 
+
     """
     raise "Long live the King!"
